@@ -1,5 +1,5 @@
 import Plotly from 'plotly.js-dist-min';
-import { WaveformData } from './types';
+import type { WaveformData } from './types';
 
 function isWaveformData(data: unknown): data is WaveformData {
   if (typeof data !== 'object' || data === null) return false;
